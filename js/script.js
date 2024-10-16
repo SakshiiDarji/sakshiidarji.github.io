@@ -99,19 +99,6 @@ $(function(){
 		Contact Form
 	=========================================================================*/
 
-	// //using stmp server for email form
-	
-	// function sendMail(){
-	// 	let params = {
-	// 		name: document.getElementById("name").value,
-	// 		email: document.getElementById("email").value,
-	// 		subject: document.getElementById("subject").value,
-	// 		message: document.getElementById("message").value
-	// 	};
-
-	// 	alert("OK");
-	// 	emailjs.send("service_02ruohu", "template_q181ni2", params).then(alert("Email Sent!!"));
-	// }
 
 	function isJSON(val){
 		var str = val.replace(/\\./g, '@').replace(/"[^"\\\n\r]*"/g, '');
